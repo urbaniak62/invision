@@ -57,6 +57,7 @@ html,body{
     margin: 3em;
 }
 .dropdown .title{
+    display: none;
     font-size: 14px;
     color: gray;
     margin-bottom: 2em;
