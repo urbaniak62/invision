@@ -10,7 +10,7 @@ html,body{
     padding: 0%;
     margin: 0%;
     overflow: hidden;
-    background: rgba(53, 51, 51, 0.699);
+   
 }
 .nav-left{
     position: fixed;
@@ -122,6 +122,18 @@ html,body{
     border-radius: 30px;
     margin-top: 2.3em;
     font-size: 0.8em;
+}
+section{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+section img{
+    width: 75%;
+    
+}
+section .image{
+    margin-top:19%;
 }
 
 
