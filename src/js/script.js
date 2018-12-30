@@ -13,10 +13,11 @@ $(document).ready(function(){
     $(window).scroll(function(){
        scroll=$(window).scrollTop();
        console.log(scroll);
-       if (scroll >57) {
+       if (scroll >56) {
            $(".nav-left").css({
                "position":"fixed",
                "background":"white",
+               "box-shadow":"0px 0px 1px 3px rgba(20, 20, 20, 0.397)",
                "z-index":"999",
                
            });
@@ -24,11 +25,12 @@ $(document).ready(function(){
                 "color":"#ff3366",
            })
        }
-       if (scroll<57) {
+       if (scroll<56) {
         $(".nav-left").css({
             "position":"absolute",
             "background":"transparent",
             "z-index":"999",
+            "box-shadow":"0px 0px 0px 0px",
             
             
         });
