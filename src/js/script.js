@@ -29,11 +29,11 @@ $(document).ready(function(){
             "position":"absolute",
             "background":"transparent",
             "z-index":"999",
-            "color":"#white",
+            
             
         });
         $(".nav-left ul li a").css({
-            //  "color":" ",
+            "color":"white",
         })
        }
     })
