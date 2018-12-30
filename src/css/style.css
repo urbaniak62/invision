@@ -179,7 +179,29 @@ section .image{
     margin-left:13px;
     margin-top:-4px;
 }
-
+.fondateur p .logo-lift{
+    height:35px;
+    width:35px;
+    
+}
+.netflix{
+    margin-top: 20%;
+    
+}
+.netflix .texte h1{
+    width: 481px;
+    color:#17191D;
+    margin-bottom: 30%;
+}
+.netflix .texte p{
+    width: 481px;
+    color:rgb(71, 72, 73);
+}
+.right-demo img{
+    width: 744px ;
+    height: 536px;
+    margin-left: 30%;
+}
 
 
 
