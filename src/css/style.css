@@ -17,16 +17,18 @@ html,body{
     top: 0;
     height: 80px;
     width: 100%;
-
+    transition: all 0.7s ease-in-out;
 }
 .nav-left ul li{
     display: inline-block;
     line-height: 80px;
     list-style: none;
     margin: 0 2em;
+    transition: all 0.7s ease-in-out;
 }
 .nav-left ul li a{
     color: white;
+    transition: all 0.7s ease-in-out;
     
 }
 .fleche{
@@ -81,6 +83,7 @@ html,body{
     right: 2em;
     height: 80px;
     z-index: 999;
+    transition: all 0.7s ease-in-out;
 }
 .nav-right ul li{
     display: inline-block;
@@ -88,6 +91,7 @@ html,body{
     list-style: none;
     margin: 0 2em;
     color: white;
+    transition: all 0.7s ease-in-out;
 }
 .nav-right ul li button{
     color: #FF3366;
@@ -95,6 +99,7 @@ html,body{
     border-radius:18px;
     border: 2px solid #FF3366;
     line-height: 30px;
+    transition: all 0.7s ease-in-out;
 }
 .en-tete{
     position: absolute;
