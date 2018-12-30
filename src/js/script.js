@@ -37,6 +37,9 @@ $(document).ready(function(){
         $(".nav-left ul li a").css({
             "color":"white",
         })
+        $(".nav-left .platform a").css({
+            "color":"#ff3366",
+        })
        }
     })
 })
