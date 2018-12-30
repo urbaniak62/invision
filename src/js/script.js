@@ -3,6 +3,9 @@ $(document).ready(function(){
     $('#dc').click(function(){
         $('.design-education').toggleClass("hidden","addOrRemove");
         $('.title').toggle(600);
+        $(".nav-left").css({
+            "background":"white",
+        })
        
     });
     var flag=false;
@@ -26,7 +29,7 @@ $(document).ready(function(){
             "position":"absolute",
             "background":"transparent",
             "z-index":"999",
-            // "color":"#white",
+            "color":"#white",
             
         });
         $(".nav-left ul li a").css({
