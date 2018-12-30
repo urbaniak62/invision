@@ -16,6 +16,7 @@ html,body{
     position: absolute;
     top: 0;
     height: 80px;
+    width: 100%;
 
 }
 .nav-left ul li{
@@ -79,6 +80,7 @@ html,body{
     top: 0;
     right: 2em;
     height: 80px;
+    z-index: 999;
 }
 .nav-right ul li{
     display: inline-block;
