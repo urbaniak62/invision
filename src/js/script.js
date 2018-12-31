@@ -17,13 +17,17 @@ $(document).ready(function(){
            $(".nav-left").css({
                "position":"fixed",
                "background":"white",
-               "box-shadow":"0px 0px 1px 3px rgba(20, 20, 20, 0.397)",
+               "box-shadow":"0px 0px 1px 3px rgba(0, 0, 0.2, 0.2)",
                "z-index":"999",
                
            });
+           
            $(".nav-left ul li a").css({
-                "color":"#ff3366",
+                "color":"black",
            })
+           $(".nav-left .platform a").css({
+            "color":"#ff3366",
+        })
        }
        if (scroll<56) {
         $(".nav-left").css({
