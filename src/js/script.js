@@ -45,7 +45,7 @@ $(document).ready(function(){
             "color":"#ff3366",
         })
        }
-       if (scroll > 5186) {
+       if (scroll > 4950) {
            $(".logo-ms-team img").css({
                "margin":"2% 25%"
            })
@@ -59,7 +59,7 @@ $(document).ready(function(){
             "margin":"22% 10%"
         })
        }
-       if (scroll < 5186) {
+       if (scroll < 4950) {
         $(".logo-ms-team img").css({
             "margin":"12% 42%"
         })
