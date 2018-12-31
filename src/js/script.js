@@ -59,5 +59,19 @@ $(document).ready(function(){
             "margin":"22% 10%"
         })
        }
+       if (scroll < 5186) {
+        $(".logo-ms-team img").css({
+            "margin":"12% 42%"
+        })
+        $(".logo-slack img").css({
+         "margin":"11% 57%"
+     })
+     $(".logo-dropbox img").css({
+         "margin":"35% 61%"
+     })
+     $(".logo-confluence img").css({
+         "margin":"32% 32%"
+     })
+    }
     })
 })
