@@ -45,5 +45,19 @@ $(document).ready(function(){
             "color":"#ff3366",
         })
        }
+       if (scroll > 5186) {
+           $(".logo-ms-team img").css({
+               "margin":"2% 25%"
+           })
+           $(".logo-slack img").css({
+            "margin":"1% 65%"
+        })
+        $(".logo-dropbox img").css({
+            "margin":"15% 80%"
+        })
+        $(".logo-confluence img").css({
+            "margin":"22% 10%"
+        })
+       }
     })
 })

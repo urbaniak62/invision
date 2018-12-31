@@ -209,7 +209,48 @@ section .image{
     height: 536px;
     margin-left: 30%;
 }
-
+.hover:hover{
+    margin-top: -0.3%;
+    transition: all 0.3s ;
+}
+.animeLogo{
+    height: 900px;
+    margin-top: 10%;
+}
+.logo-invision img{
+    position: absolute;
+    height: 40%;
+    width: 20%;
+    margin:20% 40%;   
+}
+.logo-ms-team img{
+    position: absolute;
+    height: 6%;
+    width: 5%;
+    margin:12% 42%;
+    transition: all 1s;
+}
+.logo-slack img{
+    position: absolute;
+    height: 10%;
+    width: 5%;
+    margin:11% 57%;
+    transition: all 1s;
+}
+.logo-dropbox img{
+    position: absolute;
+    height: 10%;
+    width: 5%;
+    margin:35% 61%;
+    transition: all 1s;
+}
+.logo-confluence img{
+    position: absolute;
+    height: 11%;
+    width: 5%;
+    margin:32% 32%;
+    transition: all 1s;
+}
 
 
 
